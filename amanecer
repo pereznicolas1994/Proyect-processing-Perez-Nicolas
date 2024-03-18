@@ -1,0 +1,150 @@
+
+float radio;
+
+public void setup(){
+  size(400, 400);
+  radio = 100;
+}
+public void draw(){
+//cielo  
+  background(#5293F7);
+  fill(#387DE8);
+//sol
+  stroke(#FAD812);
+  fill(#FAD812);
+  ellipse(200, 175, 155, 150);
+  
+//mar
+  stroke(#5293F7);
+  fill(#387DE8);
+  rect(0, 200, 500, 500);
+//pajaro 1 parte 1 
+  stroke(255);
+  fill(255);
+  bezier(25, 50, 50, 40, 50, 60, 50, 50);
+//pajaro 1 parte 2
+  stroke(255);
+  fill(255);
+  bezier(50, 50, 75, 40, 75, 60, 75, 50);
+//pajaro 2 parte 1
+stroke(255);
+  fill(255);
+  bezier(250, 50, 275, 40, 275, 60, 275, 50);
+//pajaro 2 parte 2
+  stroke(255);
+  fill(255);
+  bezier(275, 50, 300, 40, 300, 60, 300, 50);
+//reflejo
+  stroke(#FAD812);
+  fill(#FAD812);
+  line(125, 201, 280, 201);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(150, 203, 250, 203);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(160, 205, 230, 205);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(180, 207, 210, 207);
+  stroke(#FAD812);
+  fill(#FAD812);
+  line(125, 209, 280, 209);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(150, 211, 250, 211);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(160, 213, 230, 213);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(180, 215, 210, 215);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(125, 217, 280, 217);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(150, 219, 250, 219);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(160, 221, 230, 221);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(180, 223, 210, 223);
+  stroke(#FAD812);
+  fill(#FAD812);
+  line(125, 225, 280, 225);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(150, 227, 250, 227);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(160, 229, 230, 229);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(180, 231, 210, 231);
+    stroke(#FAD812);
+  fill(#FAD812);
+  line(125, 233, 280, 233);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(150, 235, 250, 235);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(160, 237, 230, 237);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(180, 239, 210, 239);
+  stroke(#FAD812);
+  fill(#FAD812);
+  line(125, 241, 280, 241);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(150, 243, 250, 243);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(160, 245, 230, 245);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(180, 247, 210, 247);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(125, 249, 280, 249);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(150, 251, 250, 251);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(160, 253, 230, 253);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(180, 255, 210, 255);
+  stroke(#FAD812);
+  fill(#FAD812);
+  line(125, 257, 280, 257);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(150, 259, 250, 259);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(160, 261, 230, 261);
+   stroke(#FAD812);
+  fill(#FAD812);
+  line(180, 263, 210, 263);
+//barco
+  stroke(0);
+  fill(0);
+  triangle(260, 280, 220, 340, 290, 340);
+  stroke(#480C0C);
+  fill(#480C0C);
+  line(260,340, 260, 360);
+  stroke(#645C5C);
+  fill(#645C5C);
+  triangle(220, 350, 222, 370, 225, 360); 
+  stroke(#645C5C);
+  fill(#645C5C);
+  rect(220, 360, 75, 15);
+  stroke(#645C5C);
+  fill(#645C5C);
+  triangle(293, 350, 291, 370, 295, 360);
+}
